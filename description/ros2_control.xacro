@@ -26,7 +26,7 @@
     </ros2_control>
 
     <gazebo>
-        <plugin filename="libgazebo_ros_diff_drive.so" name="gazebo_ros2_control" >
+        <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control" >
             <parameters>$(find robot_cpp)/config/my_controllers.yaml</parameters>
         </plugin>
     </gazebo>
